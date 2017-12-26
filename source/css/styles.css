@@ -1,0 +1,34 @@
+#page-content {
+    margin: 15px;
+    margin-bottom: 70px; /* height of footer */
+    line-height: 1.4;
+}
+
+/* Line numbers for code snippets */
+.gutter pre {
+    padding-right: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+
+}
+
+/* The big jumbotron on top of each blog post */
+#post-top {
+    padding: 15px;
+}
+
+.page-info-badge {
+    margin-right: 10px;
+}
+
+#show-post-info-btn {
+    margin-left: 10px;
+}
+
+/* Div at the bottom of a post w/ tags & categories */
+#page-info {
+    font-size: 110%; /* make them stand out a bit */
+}
