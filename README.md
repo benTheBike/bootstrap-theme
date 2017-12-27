@@ -10,7 +10,7 @@ A theme for Hexo based on Bootstrap. Allows for interchangable Bootstrap themes.
 ### Create your site
 ```
 mkdir c:/MySite
-cd MySite
+cd c:/MySite
 hexo init
 npm install
 ```
