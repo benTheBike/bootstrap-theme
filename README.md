@@ -23,7 +23,7 @@ $ npm install
 
 
 ### Adding this theme to your site
-```$ git clone https://github.com/benTheBike/bootstrap-theme.git C:/hexo_site/themes```
+```$ git clone https://github.com/benTheBike/bootstrap-theme.git C:/hexo_site/themes/bootstrap-theme```
 
 Next, open up ```c:/hexo_site/_config.yml``` and change ```theme```'s value (which is ```landscape``` by default), to ```bootstrap-theme```.
 ### Now check it out
