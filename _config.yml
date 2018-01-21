@@ -3,10 +3,10 @@
 
 # Bootstrap theme (leave blank for default)
 # Use a link to a (preferably minified) bootstrap-theme.css. I recommend looking @ https://bootswatch.com
-bs_theme: https://bootswatch.com/4/materia/bootstrap.min.css
+bs_theme:
 
 # Color for <meta> theme-color
-theme_color: red
+theme_color:
 
 # Path to favicon. /source/ is considered the root folder
 favicon_path: img/favicon.ico

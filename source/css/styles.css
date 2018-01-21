@@ -32,3 +32,8 @@ body {
 #page-info {
     font-size: 110%; /* make them stand out a bit */
 }
+
+/* For download pages */
+#download-jumbotron {
+    padding: 20px;
+}

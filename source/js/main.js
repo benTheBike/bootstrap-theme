@@ -1,3 +1,5 @@
+// The main script for https://github.com/benTheBike/bootstrap-theme
+
 window.onload = function() {
 
     //var copyCodeBtnHtml;
