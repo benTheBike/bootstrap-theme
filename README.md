@@ -6,14 +6,14 @@ A theme for Hexo based on Bootstrap. Allows for interchangeable Bootstrap themes
 - Syntax highlighting w/ [Highlight.js](https://highlightjs.org/)
 - Bootstrap UI with easily changeable ```bootstrap.min.css```
 - Copy buttons for code blocks to copy code directly into user's clipboards
-- ```project-page``` for displaying code projects
+- ```projectpage``` for displaying code projects
 - ```download``` page for previewing file downloads
 
 ## How to use
 ### First, make sure you have Hexo installed (Instructions [here](https://hexo.io/docs/index.html#Installation))
 
 ### Now, create your Hexo site
-*Note: ```hexo_site``` refers to the folder you create your Hexo site in ([Hexo docs](https://hexo.io/docs/setup.html))
+*Note: ```hexo_site``` refers to the folder you create your Hexo site in ([Hexo docs](https://hexo.io/docs/setup.html))*
 ```
 $ mkdir C:/hexo_site
 $ cd C:/hexo_site
@@ -70,8 +70,11 @@ A regular Hexo page
 
 ### download
 A page for previewing a downloadable file
+
 ```hexo new page my-download-file``` 
+
 Then navigate to ```C:/hexo_site/source/my-download-file/index.md```
+
 In the [Frontmatter](https://hexo.io/docs/front-matter.html), modify the following
 - layout - change to ```download```
 - permalink - If you don't want the page at the site root, change this to something like ```downloads/my-download-file/index.html``` so the download link will look like ```example.com/downloads/my-download-file```
@@ -85,14 +88,16 @@ And you can edit the content of the page to write a longer description/installat
 
 ### projectpage
 A page for showing a project
+
 ```hexo new page my-project```
+
 Then navigate to ```C:/hexo_site/source/my-project/index.md```
 In the [Frontmatter](https://hexo.io/docs/front-matter.html), modify the following
 - layout - change to ```projectpage```
 - projectname - the name of the project
 - permalink - If you don't want the page at the site root, change this to something like ```projects/my-project/index.html``` so the URL will look like ```example.com/projects/my-project```
-- sourceurl - a link to the source code (like a Github link or something)
-- downloadurl - A link to the download'
+- sourceurl - a link to the source code
+- downloadurl - A link to the download
 - subtitle - A short description
 
 And you can edit the content of the page to write a longer description about the project.
