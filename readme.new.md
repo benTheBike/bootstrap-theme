@@ -21,3 +21,8 @@ $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootst
 ## Customize
 
 ## Pages
+
+## Todo
+- integrate google analytics
+- store JS and CSS locally
+- figure out icon solution
