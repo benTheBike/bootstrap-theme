@@ -14,7 +14,7 @@ $ npm install
 $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootstrap-hexo-theme
 ```
 2. Remove ```themes/landscape```
-3. Open ```_config.yml``` and change '''theme``` from ```landscape``` to ```bootstrap-hexo-theme```
+3. Open ```_config.yml``` and change ```theme``` from ```landscape``` to ```bootstrap-hexo-theme```
 4. Generate site ```hexo generate && hexo serve```
 5. View your site at [localhost:4000](http://localhost:4000)
 
