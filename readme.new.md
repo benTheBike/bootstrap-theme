@@ -26,3 +26,4 @@ $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootst
 - integrate google analytics
 - store JS and CSS locally
 - figure out icon solution
+- grunt script to minify CSS and JS, and to build site
