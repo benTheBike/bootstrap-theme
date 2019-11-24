@@ -5,12 +5,12 @@ A Hexo theme based around Bootstrap. Mobile-friendly and very customizable.
 ## Install
 1. Setup Hexo site
 ```
-#create hexo site
+# Create hexo site
 $ mkdir $working_directory$
 $ cd $working_directory$
 $ hexo init
 $ npm install
-#install theme
+# Install theme
 $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootstrap-hexo-theme
 ```
 2. Remove ```themes/landscape```
