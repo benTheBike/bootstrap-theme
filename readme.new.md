@@ -19,6 +19,9 @@ $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootst
 5. View your site at [localhost:4000](http://localhost:4000)
 
 ## Customize
+### Foooter
+Edit the content of ```layout/bootstrap-theme-hexo/partials/footer.ejs``` to add manually add custom content to your footer.
+You can also add links to be displayed in the Footer section of ```bootstrap-theme-hexo/_config.yml``
 
 ## Pages
 
