@@ -30,3 +30,6 @@ You can also add links to be displayed in the Footer section of ```bootstrap-the
 - store JS and CSS locally
 - figure out icon solution
 - grunt script to minify CSS and JS, and to build site
+- category, tag, and archive layouts
+- integrate google site search (search box in navbar?)
+- integrate google analytics
