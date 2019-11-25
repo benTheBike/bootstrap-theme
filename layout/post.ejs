@@ -6,27 +6,15 @@
         <button id="show-post-info-btn" class="btn btn-primary btn-md"  data-toggle="modal" data-target="#page-info-modal">Post details</button>
     </p>
 </div>
+
+<hr>
+
 <%- page.content %>
-<div id="page-info">
-    <p id="tags"><span class="badge badge-secondary">Tags: </span>
-        <% if (page.tags && page.tags.length) { %>
-        <%- list_tags(page.tags, {
-            show_count: false,
-            class: "page-tag",
-            style: "none",
-            seperator: ","
-        }) %>
-        <% } %>
-    </p>
-    <p id="categories"><span class="badge badge-secondary">Categories: </span>
-        <% if (page.categories && page.categories.length) { %>
-        <%- list_categories(page.categories, {
-            show_count: false,
-            class: "page-category",
-            style: "none",
-            seperator: ","
-        }) %>
-        <% } %>
-    </p>
-</div>
 <%- partial("partials/modal.ejs") %>
+
+<div class="post--info">
+    <%- partial("partials/post_tags.ejs") %>
+    <%- partial("partials/post_categories.ejs") %>
+</div>
+
+<hr>

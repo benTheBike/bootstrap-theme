@@ -1,12 +1,15 @@
 # bootstrap-theme
-# https://github.com/benTheBike/bootstrap-theme
+# https://github.com/bendotbike/bootstrap-hexo-theme
 
 # Bootstrap theme (leave blank for default)
 # Use a link to a (preferably minified) bootstrap-theme.css. I recommend looking @ https://bootswatch.com
-bs_theme:
+bs_theme: https://bootswatch.com/4/darkly/bootstrap.min.css
+
+# Highlight js theme
+hljs_theme: https://highlightjs.org/static/demo/styles/an-old-hope.css
 
 # Color for <meta> theme-color
-theme_color:
+theme_color: black
 
 # Path to favicon. /source/ is considered the root folder
 favicon_path: img/favicon.ico
@@ -15,6 +18,9 @@ favicon_path: img/favicon.ico
 # Blog: /blog
 navbar_links:
   Home: /
-  Blog: /blog
-  Code: /code
+  Archive: /archive
   About: /about
+
+# Footer links
+footer_links:
+  Github: https://github.com/bendotbike

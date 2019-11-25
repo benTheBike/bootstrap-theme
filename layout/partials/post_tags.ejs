@@ -1,0 +1,10 @@
+<p id="post--tags"><span class="badge badge-secondary">Tags: </span>
+    <% if (page.tags && page.tags.length) { %>
+        <%- list_tags(page.tags, {
+            show_count: false,
+            class: "page-tag",
+            style: "none",
+            seperator: ","
+        }) %>
+    <% } %>
+</p>

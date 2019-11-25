@@ -1,5 +1,15 @@
-<footer id="footer" class="footer">
+<div id="footer">
     <div class="container">
-        <i class="fa fa-github"></i>
+
+        <strong>Footer Content</strong>
+
+        <ul>
+            <% for (var i in theme.footer_links) { %>
+                <li>
+                    <a class="footer-link" href="<%- url_for(theme.footer_links[i]) %>"> <%= i %> </a>
+                </li>
+            <% } %>
+        </ul>
+
     </div>
-</footer>
+</div>

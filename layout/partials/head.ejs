@@ -5,8 +5,7 @@
     <meta name="author" content="<%= config.author %>">
     <%- favicon_tag(theme.favicon_path) %>
     <title><%= config.title %></title>
-    <% if (theme.bs_theme) { %><link href="<%= theme.bs_theme %>" type="text/css" rel="stylesheet">
-    <% } else { %> <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" type="text/css" rel="stylesheet"> <% } %>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css" type="text/css" rel="stylesheet">
     <%- css("css/styles.css") %>
+    <link rel="stylesheet" href="<%= theme.bs_theme %>">
+    <link rel="stylesheet" href="<%= theme.hljs_theme %>">
 </head>
