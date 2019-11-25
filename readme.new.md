@@ -26,7 +26,6 @@ You can also add links to be displayed in the Footer section of ```bootstrap-the
 ## Pages
 
 ## Todo
-- post excerpts on index
 - pagination
 - integrate google analytics
 - figure out icon solution
