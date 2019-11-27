@@ -37,3 +37,4 @@ You can also add links to be displayed in the Footer section of ```bootstrap-the
 - figure out icon solution
 - grunt script to minify CSS and JS, and to build site
 - integrate google site search (search box in navbar?)
+- finalize and polish download-page and project-page
