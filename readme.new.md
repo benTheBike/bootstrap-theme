@@ -2,6 +2,13 @@
 
 A Hexo theme based around Bootstrap. Mobile-friendly and very customizable.
 
+## Features
+- Bootstrap UI themeable via your own ```bootstrap.css```
+- Themable code-snippet highlighting via ```highlight.js```
+- Comments - https://utteranc.es
+- Google Analytics integration (just add your tracking_id)
+- Google Custom Search Integration
+
 ## Install
 1. Setup Hexo site
 ```
@@ -27,8 +34,6 @@ You can also add links to be displayed in the Footer section of ```bootstrap-the
 
 ## Todo
 - pagination
-- integrate google analytics
 - figure out icon solution
 - grunt script to minify CSS and JS, and to build site
-- category, tag, and archive layouts
 - integrate google site search (search box in navbar?)
