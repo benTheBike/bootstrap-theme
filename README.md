@@ -18,17 +18,14 @@ $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootst
 4. Generate site ```hexo generate && hexo serve```
 5. View your site at [localhost:4000](http://localhost:4000)
 
-## Customize
-### Foooter
-Edit the content of ```layout/bootstrap-theme-hexo/partials/footer.ejs``` to add manually add custom content to your footer.
-You can also add links to be displayed in the Footer section of ```bootstrap-theme-hexo/_config.yml```
-
-## Pages
-
 ## Todo
-- pagination
-- integrate google analytics
-- figure out icon solution
-- grunt script to minify CSS and JS, and to build site
-- category, tag, and archive layouts
-- integrate google site search (search box in navbar?)
+- Pagination
+- Icons
+- Grunt integration
+- Custom ```category.ejs``` and ```tag.ejs```
+- Better document ```styles.css```
+- Tweak and document ```_config.yml```
+- Add more documentation to this README
+- ```bs_theme``` in ```_config.yml``` does nothing, currently Bootstrap theme is set through a local file specified in ```partials/head.ejs``` - fix this
+- Nested items in footer
+- Footer CSS (center, font sizing)
