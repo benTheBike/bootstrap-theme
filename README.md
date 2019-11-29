@@ -29,3 +29,6 @@ $ git clone https://github.com/bendotbike/bootstrap-hexo-theme.git themes/bootst
 - ```bs_theme``` in ```_config.yml``` does nothing, currently Bootstrap theme is set through a local file specified in ```partials/head.ejs``` - fix this
 - Nested items in footer
 - Footer CSS (center, font sizing)
+- Clean up ```main.js```
+- Remove ```project_page.js```
+- Make posts displayed on ```index.ejs``` have more detail
