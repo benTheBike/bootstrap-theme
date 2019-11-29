@@ -11,5 +11,8 @@
                 </li>
             <% } %>
         </ul>
+        <% if (theme.google_custom_search_url) { %>
+            <%- partial("partials/custom_search/custom_search_navbar.ejs") %>
+        <% } %>
     </div>
 </nav>

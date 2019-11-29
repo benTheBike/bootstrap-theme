@@ -1,4 +1,10 @@
-// The main script for https://github.com/benTheBike/bootstrap-theme
+/*
+*   bootstrap-hexo-theme
+*   main.js - copies code to user's clipboards, and enables highlight.js
+*
+ */
+
+// @TODO convert me to jquery based code
 
 window.onload = function() {
 

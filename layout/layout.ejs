@@ -5,10 +5,13 @@
     <div id="page-top">
         <%- partial("partials/navbar.ejs") %>
     </div>
+
     <div id="page-content">
         <%- body %>
-        <%- partial("partials/footer.ejs") %>
     </div>
+
+    <%- partial("partials/custom_search/custom_search_modal.ejs") %>
+    <% if (page.layout !== "post") { %> <%- partial("partials/footer.ejs") %> <% } %>
     <%- partial("partials/scripts.ejs") %>
 </body>
 </html>
